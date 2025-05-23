@@ -41,9 +41,9 @@ AI-generated content should always be **reviewed and refined by humans**. The to
 
 ## 📬 Author
 
-**Prepared by:** [Your Name]  
+**Prepared by:** [Fati Samoura]  
 **Course:** JSGS 882 – Strategic Management in the Public Sector  
-**Instructor:** [Insert Instructor’s Name]
+**Instructor:** [Justin Longo]
 
 ---
 
