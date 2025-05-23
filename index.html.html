@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Assistant Prompt Kit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f5f7fa;
+    }
+    h1 {
+      color: #1a5a96;
+    }
+    label {
+      font-weight: bold;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+    button {
+      background-color: #1a5a96;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #2e77bb;
+    }
+    .branding {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .branding img {
+      width: 120px;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="branding">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Flag_of_Saskatchewan.svg/1200px-Flag_of_Saskatchewan.svg.png" alt="Saskatchewan Flag">
+    <h1>AI Assistant for Strategic Briefing Notes</h1>
+  </div>
+
+  <div class="section">
+    <label for="prompt-type">Select Prompt Template:</label>
+    <select id="prompt-type">
+      <option value="structure">Briefing Note Structure</option>
+      <option value="summary">Concise Summary</option>
+      <option value="options">Option Analysis</option>
+      <option value="editing">Plain Language Editing</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <label for="user-input">Your Topic or Text:</label>
+    <textarea id="user-input" rows="6" placeholder="Enter your topic or paste your content here..."></textarea>
+    <button onclick="generatePrompt()">Generate Prompt</button>
+    <p><strong>Generated Prompt:</strong></p>
+    <textarea id="output" rows="6" readonly></textarea>
+  </div>
+
+  <script>
+    function generatePrompt() {
+      const type = document.getElementById('prompt-type').value;
+      const input = document.getElementById('user-input').value;
+      let output = "";
+
+      switch(type) {
+        case 'structure':
+          output = `Draft a two-page briefing note on ${input} for a Director-level audience. Include issue, background, 2-3 options, a recommendation, and risk analysis.`;
+          break;
+        case 'summary':
+          output = `Summarize the following for an ADM-level briefing note: ${input}`;
+          break;
+        case 'options':
+          output = `List and compare three strategic options to address ${input}, outlining pros, cons, and key considerations.`;
+          break;
+        case 'editing':
+          output = `Edit this for plain language suitable for a government audience: ${input}`;
+          break;
+      }
+
+      document.getElementById('output').value = output;
+    }
+  </script>
+</body>
+</html>
