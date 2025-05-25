@@ -39,7 +39,7 @@ Includes pre-written prompts, option framing, tone refinement, and an ethical us
 
 ## 👤 Author
 
-**[Your Name]**  
+**[Fati Samoura]**  
 Graduate Student, Johnson Shoyama Graduate School of Public Policy  
 University of Regina
 
