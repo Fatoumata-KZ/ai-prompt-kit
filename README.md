@@ -1,50 +1,48 @@
 
-# AI Assistant for Strategic Briefing Notes 🧠📝
+# 🧠 AI Assistant for Strategic Briefing Notes
 
-This is a prototype web tool designed to assist public sector policy analysts in drafting strategic briefing notes using generative AI tools (e.g., ChatGPT, Gemini, Claude).
+This applied project was developed for **JSGS 882 – Strategic Management in the Public Sector** to explore how generative AI tools can enhance internal government workflows — specifically in the writing of strategic briefing notes.
 
-## 🎯 Purpose
+## 🔍 Problem
 
-Briefing note quality and turnaround time vary significantly across government ministries. This tool aims to:
-- Improve the **speed and structure** of first drafts
-- Support **junior analysts** or onboarding staff
-- Encourage **clarity and consistency** in written communication
-- Emphasize **ethical use** and human judgment in AI-supported writing
+Briefing note quality and turnaround times vary widely across ministries. Many new analysts struggle with structure, tone, or expectations, while senior staff must invest extra time editing inconsistent drafts.
 
-## 🧰 Features
+## 💡 Solution
 
-- Dropdown menu to select different prompt types:
-  - Briefing Note Structure
-  - Concise Summary
-  - Option Analysis
-  - Plain Language Editing
-- Input box for user text or topic
-- AI-ready prompt generator output
-- Saskatchewan Government branding for demo purposes
+This tool helps public sector analysts use **AI-generated prompts** to quickly create better first drafts. It consists of:
+- A live, interactive web app for generating briefing prompts
+- A downloadable Prompt Kit with examples and templates
+- Ethical guidelines for responsible AI usage
 
-## 📁 File Structure
+## 🚀 Live Demo
 
-- `index.html`: The core of the tool, ready for GitHub Pages deployment.
-- `README.md`: This file, explaining purpose and functionality.
+👉 **[Click here to open the Prompt Generator](https://fatoumata-kz.github.io/ai-prompt-kit/)**
 
-## 🚀 How to Use
+## 📥 Download the Prompt Kit
 
-1. Open the [live demo site](https://yourusername.github.io/your-repo-name/)
-2. Choose a prompt style from the dropdown.
-3. Enter a topic or paste a paragraph of text.
-4. Click **Generate Prompt** and copy the result into your preferred AI tool.
-5. Review and edit the AI-generated output to ensure alignment with your strategic purpose.
+📄 **[AI_Prompt_Kit_Strategic_Briefing_Notes.docx](AI_Prompt_Kit_Strategic_Briefing_Notes.docx)**  
+Includes pre-written prompts, option framing, tone refinement, and an ethical use guide.
 
-## ⚠️ Ethical Note
+## ✨ Features
 
-AI-generated content should always be **reviewed and refined by humans**. The tool is intended to **augment**, not replace, the critical thinking and strategic judgment of public servants.
+- 4 Prompt Templates (Structure, Summary, Option Analysis, Editing)
+- Browser-based, no login required
+- Saskatchewan branding and accessibility features
+- Designed for rapid onboarding and decision support
 
-## 📬 Author
+## 📁 Files Included
 
-**Prepared by:** [Fati Samoura]  
-**Course:** JSGS 882 – Strategic Management in the Public Sector  
-**Instructor:** [Justin Longo]
+- `index.html` – Live interactive prompt tool
+- `AI_Prompt_Kit_Strategic_Briefing_Notes.docx` – Downloadable briefing kit
+- `README.md` – This documentation
+- `AI_Prompt_Kit_One_Page_Summary.docx` – One-page project overview
+
+## 👤 Author
+
+**[Your Name]**  
+Graduate Student, Johnson Shoyama Graduate School of Public Policy  
+University of Regina
 
 ---
 
-This project is part of an applied assignment for academic purposes only.  
+_This project demonstrates how strategic foresight and modern AI tools can be responsibly integrated into public service to support consistent, clear, and timely communication._  
