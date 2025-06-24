@@ -1,7 +1,7 @@
 
 # 🧠 AI Assistant for Strategic Briefing Notes
 
-This applied project was developed for **JSGS 882 – Strategic Management in the Public Sector** to explore how generative AI tools can enhance internal government workflows — specifically in the writing of strategic briefing notes.
+This applied project, developed for **JSGS 882 – Strategic Management in the Public Sector**, explored how generative AI tools can enhance internal government workflows, specifically in the writing of strategic briefing notes.
 
 ## 🔍 Problem
 
@@ -9,7 +9,7 @@ Briefing note quality and turnaround times vary widely across ministries. Many n
 
 ## 💡 Solution
 
-This tool helps public sector analysts use **AI-generated prompts** to quickly create better first drafts. It consists of:
+This tool helps public sector analysts utilize **AI-generated prompts** to quickly create more effective first drafts. It consists of:
 - A live, interactive web app for generating briefing prompts
 - A downloadable Prompt Kit with examples and templates
 - Ethical guidelines for responsible AI usage
@@ -27,7 +27,6 @@ Includes pre-written prompts, option framing, tone refinement, and an ethical us
 
 - 4 Prompt Templates (Structure, Summary, Option Analysis, Editing)
 - Browser-based, no login required
-- Saskatchewan branding and accessibility features
 - Designed for rapid onboarding and decision support
 
 ## 📁 Files Included
