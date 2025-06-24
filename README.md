@@ -1,47 +1,50 @@
 
-# 🧠 AI Assistant for Strategic Briefing Notes
+# AI Prompt Kit for Strategic Briefing Notes
 
-This applied project, developed for **JSGS 882 – Strategic Management in the Public Sector**, explored how generative AI tools can enhance internal government workflows, specifically in the writing of strategic briefing notes.
-
-## 🔍 Problem
-
-Briefing note quality and turnaround times vary widely across ministries. Many new analysts struggle with structure, tone, or expectations, while senior staff must invest extra time editing inconsistent drafts.
-
-## 💡 Solution
-
-This tool helps public sector analysts utilize **AI-generated prompts** to quickly create more effective first drafts. It consists of:
-- A live, interactive web app for generating briefing prompts
-- A downloadable Prompt Kit with examples and templates
-- Ethical guidelines for responsible AI usage
-
-## 🚀 Live Demo
-
-👉 **[Click here to open the Prompt Generator](https://fatoumata-kz.github.io/ai-prompt-kit/)**
-
-## 📥 Download the Prompt Kit
-
-📄 **[AI_Prompt_Kit_Strategic_Briefing_Notes.docx](AI_Prompt_Kit_Strategic_Briefing_Notes.docx)**  
-Includes pre-written prompts, option framing, tone refinement, and an ethical use guide.
-
-## ✨ Features
-
-- 4 Prompt Templates (Structure, Summary, Option Analysis, Editing)
-- Browser-based, no login required
-- Designed for rapid onboarding and decision support
-
-## 📁 Files Included
-
-- `index.html` – Live interactive prompt tool
-- `AI_Prompt_Kit_Strategic_Briefing_Notes.docx` – Downloadable briefing kit
-- `README.md` – This documentation
-- `AI_Prompt_Kit_One_Page_Summary.docx` – One-page project overview
-
-## 👤 Author
-
-**[Fati Samoura]**  
-Graduate Student, Johnson Shoyama Graduate School of Public Policy  
-University of Regina
+A low-risk, high-impact prototype that leverages generative AI to improve the quality, speed, and consistency of briefing notes across ministries in the Government of Saskatchewan.
 
 ---
 
-_This project demonstrates how strategic foresight and modern AI tools can be responsibly integrated into public service to support consistent, clear, and timely communication._  
+## 🧠 Purpose
+
+Briefing notes are essential to government decision-making, but quality and timeliness often vary. This kit provides structured AI prompts that guide analysts through drafting key sections — issue, background, options, recommendation — in plain, professional language.
+
+---
+
+## ⚙️ Features
+
+- Four pre-structured prompt types for:
+  - Structure & Drafting
+  - Summary Writing
+  - Option Analysis
+  - Plain Language Editing
+- Embedded ethical AI use reminders
+- Fully secure, browser-based (no data sent to servers)
+- Designed to align with **Microsoft Copilot** for long-term use
+
+---
+
+## 🔒 Why Microsoft Copilot?
+
+To ensure **FOI compliance**, security, and alignment with internal tools, this project is designed for integration with Microsoft Copilot — supporting in-system drafting, version control, and workflow continuity.
+
+---
+
+## 📁 Supporting Documents
+
+- 📄 [Strategic Briefing Notes Report](https://github.com/fatoumata-kz/ai-prompt-kit/blob/main/docs/AI_Prompt_Kit_Strategic_Briefing_Notes.docx)
+- 🧾 [One-Page Summary](https://github.com/fatoumata-kz/ai-prompt-kit/blob/main/docs/AI_Prompt_Kit_One_Page_Summary.docx)
+
+---
+
+## 🚀 Live Demo
+
+Click below to open the AI Prompt Kit tool:
+
+👉 [https://fatoumata-kz.github.io/ai-prompt-kit/](https://fatoumata-kz.github.io/ai-prompt-kit/)
+
+---
+
+## 📌 License
+
+This is an educational prototype for public sector innovation. Use respectfully.
